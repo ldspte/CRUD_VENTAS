@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;   
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:#ffffff;
+}
+
+.wrapper {
+    width: 100%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#343a40;
+}
+
+.wrapper2{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:#343a40;
+}
+
+.box {
+    display: flexbox;
+    width: 40%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 7.5em 2.5em 4em 2.5em;
+    color: #f8f9fa;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    /* margin: 20px 100px 35px 0 ;  */
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: none;
+    border-color: white;
+    border: 1px;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    padding: 2px 10px 2px 10px;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: white;
+    background-color: #212529;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+    border: none; 
+    padding: 2px 5px 2px 5px;
+    color: black;
+    margin-top: 20px;
+}
+
+/*HOME*/
+/*BANNER*/
+
+.banner {
+    background-color: #212529;
+    height: 100px;
+}
+
+/*BIENVENIDA*/
+
+.one {
+    font-size: 35px;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 10px; 
+    margin-top: 40px;
+}
+
+.two {
+    font-size: 30px;
+    font-weight: 500;
+    color: #202122;
+    margin-bottom: 15px;
+}
+
+.dash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;            /* Espacio entre cada elemento dentro del contenedor .dash */
+    width: 700px;        /* Ajusta el ancho según lo necesites */
+    margin: 0 auto;      /* Centra el div horizontalmente */
+    padding: 20px;
+}
+
+/*HOME SELLER*/
+
+
+.options {
+    display: flex;              /* Coloca los elementos en línea horizontal */
+    gap: 100px;                  /* Espacio entre los divs de productos y ventas */
+    justify-content: center;    /* Centra los elementos dentro del contenedor */
+    width: 100%;                /* Asegura que ocupe todo el ancho disponible */
+    margin-top: 20px;           /* Espaciado opcional para separarlo del título */
+}
+
+.products, .sells {
+    text-align: center;         
+    border-radius: 5px;         /* Opcional: Bordes redondeados */
+    width: 600px;    
+    margin-bottom: 50px;        
+}
+
+/*LINKS*/
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;            /* Espacio entre los enlaces de la lista */
+    list-style: none;
+    padding: 0;
+    margin: 5px 10px 0 15px;
+}
+
+li {
+    margin: 0; 
+}
+
+.link {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 15px;   /* Ajustar el tamaño del botón */
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #ffffff;
+    background-color: #464747;
+}
+
+/*LOGOUT*/
+
+.out {
+    color: #1c1c1d;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 25px;     /* Espacio extra encima del enlace de Cerrar Sesión */
+    transition: 0.5s;
+}
+
+.out:hover {
+    color: #780000;
+    font-size: 25px;
+}
+
+form {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #003049;
+}
+
+input, select, option {
+    border-radius: 5px;
+    border: none; 
+    padding: 2px 5px 2px 5px;
+    margin-bottom: 20px;
+    color: black;
+    width: 250px;
+}
+
+textarea {
+    border-radius: 5px;
+    border: none; 
+    padding: 2px 5px 2px 5px;
+    margin-bottom: 20px;
+    color: black;
+    width: 250px;
+}
+
+th {
+    background-color: #204c67;
+    color: white;
+}
+
+td {
+    background-color: #b0d0e4;
+    color: #003049;
+}
+
+a {
+    color: #780000;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #235f85;
+}
+
+.volver {
+    transition: 0.5s;
+}
+
+.volver:hover {
+    color: white;
+}
+
+p {
+    font-size: 50px;
+    text-align: center;
+    color: #003049;
+}
